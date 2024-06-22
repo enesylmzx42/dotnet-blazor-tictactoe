@@ -1,0 +1,9 @@
+@using global::TicTacToe.Shared.Constants
+
+<div class="menu-container">
+    <h1 class="header">Tic Tac Toe</h1>
+    <div class="menu-buttons">
+        <button class="menu-button2" @onclick="() => StartGame(GameType.AI)">Play Against AI</button>
+        <button class="menu-button2" @onclick="() => StartGame(GameType.TwoPlayer)">2 Player Game</button>
+    </div>
+</div>

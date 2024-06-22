@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\tictactoe-blazor\\src\\TicTacToe.Shared\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TicTacToe.Shared.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.TicTacToe.Shared.props",
+      "PackagePath": "build\\TicTacToe.Shared.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.TicTacToe.Shared.props",
+      "PackagePath": "buildMultiTargeting\\TicTacToe.Shared.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.TicTacToe.Shared.props",
+      "PackagePath": "buildTransitive\\TicTacToe.Shared.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

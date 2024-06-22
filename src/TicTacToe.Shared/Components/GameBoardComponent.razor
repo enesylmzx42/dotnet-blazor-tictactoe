@@ -1,0 +1,38 @@
+<div class="menu-container">
+    <h1 class="header">
+        Tic Tac Toe
+        @if (_board.IsGameOver())
+        {
+            <br />
+            @if (_board.Winner == "Tie")
+            {
+                <span class="result-text">Game ended in a draw</span>
+            }
+            else
+            {
+                <span class="result-text">Winner: @(_board.Winner == "X" ? "Player 1" : "Player 2")</span>
+            }
+        }
+    </h1>
+</div>
+
+
+
+<div class="game-container">
+    @for (int i = 0; i < 3; i++)
+    {
+        <div class="row" id="@i">
+            @for (int j = 0; j < 3; j++)
+            {
+                int row = i;
+                int col = j;
+                <div @onclick="() => BoxClicked(row, col)" class="@IsWinnerCell(row, col)" id="column-@row-@col">@_board.GetCellPlayer(row, col)</div>
+            }
+        </div>
+    }
+</div>
+
+<div class="menu-buttons">
+    <button class="menu-button3" @onclick="RestartGame">Restart</button>
+    <button class="menu-button" @onclick="GoBack">Exit</button>
+</div>
