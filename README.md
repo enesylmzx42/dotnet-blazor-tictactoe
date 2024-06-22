@@ -1,2 +1,3 @@
 ## GIF
-![sfgrggrgg](https://github.com/enesylmzx42/dotnet-blazor-tictactoe/assets/117593621/d368e6c8-8d69-48c0-b6a2-daf1f9092270)
+
+![sfgsgfsg](https://github.com/enesylmzx42/dotnet-blazor-tictactoe/assets/117593621/cf290485-77be-487c-a419-1d4cf59d72b4)
